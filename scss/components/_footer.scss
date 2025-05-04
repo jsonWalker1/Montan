@@ -1,0 +1,18 @@
+.bottom{
+  width: 100%;
+  height: auto;
+  background-color:#303030;
+  position: absolute;
+  opacity: .7;
+  bottom: 0;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Mono';
+  a{
+    color: white;
+  }
+}

@@ -1,0 +1,67 @@
+  .swiper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+.swiper-slide{
+  h1{
+    padding-top: 15%;
+    text-align: center;
+    font-family: 'Roboto Mono';
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+  }
+  article{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+    width: 100%;
+    height: 50%;
+    gap: 30px;
+    img{
+      width: 250px;
+      height: 150px;
+      border-radius: 10%;
+    }
+    figure{
+      transition: 1s ease;
+      a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    figcaption{
+      font-family: 'Roboto Mono';
+      color: white;
+      padding-top: 10px;
+    }
+  }
+  figure:hover{
+    transform: scale(1.1);
+  }
+}
+
+
+
+  .slide1{
+    background: url('/assets/pic/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .slide2{
+    background: url('/assets/pic/22.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .slide3{
+    background: url('/assets/pic/3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }

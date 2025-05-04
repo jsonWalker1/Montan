@@ -1,0 +1,47 @@
+header{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #303030;
+  z-index: 2;
+  width: 100%;
+  opacity: .7;
+  padding: 0 30px;
+  img{
+    width: 100px;
+    height: 100px;
+  }
+  ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    li{
+      padding: 10px 30px;
+      font-family: 'Roboto Mono';
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      a{
+        color: white;
+      }
+    }
+  }
+  form {
+    label{
+      font-family: 'Roboto Mono';
+      color: white;
+    }
+    input{
+      border: none;
+      width: 100px;
+      opacity: .7;
+      border-radius: 30px;
+    }
+    button{
+      border: none;
+      padding: 10px;
+      background-color: #303030;
+    }
+  }
+}
